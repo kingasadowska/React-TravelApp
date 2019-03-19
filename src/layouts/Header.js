@@ -15,22 +15,22 @@ const Header = () => {
         <>
         <Switch>
             <Route path="/" exact render={() => (
-                <img src={img1} alt="miasto" />
+                <img src={img1} alt="/" />
             )} />
             <Route path="/products" render={() => (
-                <img src={img2} alt="miasto" />
+                <img src={img2} alt="products" />
             )} />
             <Route path="/trips" render={() => (
-                <img src={img3} alt="miasto" />
+                <img src={img3} alt="trips" />
             )} />
             <Route path="/feedback" render={() => (
-                <img src={img4} alt="miasto" />
+                <img src={img4} alt="feedback" />
             )} />
             <Route path="/contact" render={() => (
-                <img src={img5} alt="miasto" />
+                <img src={img5} alt="contact" />
             )} />
             <Route render={() => (
-                <img src={img1} alt="miasto" />
+                <img src={img1} alt="error" />
             )} />
         </Switch>
     </>
