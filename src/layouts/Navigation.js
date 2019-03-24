@@ -4,10 +4,11 @@ import "../styles/Navigation.css";
 
 const list = [
   { name: "Home", path: "/", exact: true },
-  { name: "Destinations", path: "/products" },
+  { name: "Destinations", path: "/destinations" },
   { name: "Plan your trip", path: "/trips" },
   { name: "Feedback", path: "/feedback" },
   { name: "Contact us", path: "/contact"},
+  { name: "Log in | Register", path: "/log"}
 ]
 
 const Navigation = () => {

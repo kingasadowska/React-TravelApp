@@ -1,0 +1,22 @@
+.destinations h2 {
+    margin-bottom: 20px;
+}
+
+.destinations ul {
+    list-style: square;
+    padding-left: 300px;
+}
+
+.destinations li {
+    margin-bottom: 20px;
+}
+
+.destinations a {
+    text-decoration: none;
+    color: #333;
+}
+
+.destinations a:hover {
+    text-decoration: underline;
+    color: black;
+}
